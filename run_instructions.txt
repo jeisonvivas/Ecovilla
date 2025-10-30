@@ -1,0 +1,5 @@
+1. Ir a /backend
+2. Crear entorno virtual e instalar dependencias: pip install -r requirements.txt
+3. (opcional) exportar la variable DATABASE_URL si la quieres cambiar
+4. Ejecutar: python app.py
+5. Abrir frontend/index.html en el navegador

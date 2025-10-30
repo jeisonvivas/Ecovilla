@@ -1,0 +1,5 @@
+body{font-family: system-ui, Arial, sans-serif; margin:20px; color:#064e3b;}
+header h1{background:#a7f3d0;padding:12px;border-radius:8px;}
+section{margin-top:18px;background:#ecfdf5;padding:12px;border-radius:8px;}
+form label{display:block;margin:8px 0;}
+button{background:#059669;color:white;border:none;padding:8px 12px;border-radius:6px;cursor:pointer;}
