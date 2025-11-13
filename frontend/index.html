@@ -14,7 +14,7 @@
       <i data-lucide="leaf"></i>
       <h1>EcoVilla Villavicencio</h1>
     </div>
-    <p>Registra tus reciclajes y gana puntos por cuidar el planeta 🌎</p>
+    <p>Registra tus reciclajes y gana puntos 🌎</p>
   </header>
 
   <main>
@@ -23,40 +23,37 @@
       <form id="formReciclar">
         <div class="form-group">
           <label>Usuario ID</label>
-          <input type="number" id="usuarioid" placeholder="Ej: 1" required>
+          <input type="number" id="usuarioid" required>
         </div>
         <div class="form-group">
           <label>Material</label>
-          <input type="text" id="material" placeholder="Plástico, vidrio, papel..." required>
+          <input type="text" id="material" required>
         </div>
         <div class="form-group">
           <label>Cantidad (kg)</label>
           <input type="number" id="cantidad" step="0.01" required>
         </div>
-        <button type="submit" class="btn">Registrar ♻️</button>
+        <button class="btn" type="submit">Registrar ♻️</button>
       </form>
       <p id="mensaje" class="mensaje"></p>
     </section>
 
     <section class="card" id="ranking">
-      <h2><i data-lucide="trophy"></i> Ranking de recicladores</h2>
-      <ol id="listaRanking" class="ranking-list"></ol>
+      <h2><i data-lucide="trophy"></i> Ranking</h2>
+      <ol id="listaRanking"></ol>
     </section>
 
     <section class="card" id="ultimos">
-      <h2><i data-lucide="clock"></i> Últimos reciclajes</h2>
-      <ul id="listaRecientes" class="recientes-list"></ul>
+      <h2><i data-lucide="clock"></i> Últimos Reciclajes</h2>
+      <ul id="listaRecientes"></ul>
     </section>
   </main>
 
   <footer>
-    <p>🌱 Proyecto EcoVilla Villavicencio — Desarrollado con amor por el planeta 💚</p>
+    <p>🌱 EcoVilla Villavicencio — Proyecto ambiental 💚</p>
   </footer>
 
   <script src="scripts.js"></script>
-  <script>
-    lucide.createIcons();
-  </script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>
-
